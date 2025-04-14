@@ -16,9 +16,9 @@ int main()
     cout << "Masukkan nama player= ";
     getline(cin, pl.name);
     cout << "Masukkan id= ";
-    getline(cin, pl.id);
+    cin >> pl.id;
     cout << "Masukkan level= ";
-    getline(cin, pl.level);
+    cin >> pl.level;
 
     cout << "Tampilkan Player" << endl;
     cout << "Nama Player= " << pl.name << endl;
